@@ -25,3 +25,15 @@ An in-depth SQL analysis of a dataset containing rich details about various aspe
 - How do attendance, sleep, tutoring, and teacher quality relate to performance?
 
 **Dataset:** `student_performance` — columns: `attendance`, `extracurricular_activities`, `sleep_hours`, `tutoring_sessions`, `teacher_quality`, `exam_score`
+
+---
+
+### 3. [Analyzing Electric Vehicle Charging Habits](./analyzing_elctric_vehicle_charging_habits/)
+
+A SQL analysis of EV charging session data from apartment building shared charging stations, helping building managers better understand their tenants' charging habits and competition for charging ports.
+
+**Key questions explored:**
+- Which garages and users have the highest charging activity?
+- How do charging patterns vary by time of day, day of week, and month?
+
+**Dataset:** `charging_sessions` — columns: `garage_id`, `user_id`, `user_type`, `start_plugin`, `start_plugin_hour`, `end_plugout`, `end_plugout_hour`, `duration_hours`, `el_kwh`, `month_plugin`, `weekdays_plugin`
