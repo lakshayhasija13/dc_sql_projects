@@ -37,3 +37,29 @@ A SQL analysis of EV charging session data from apartment building shared chargi
 - How do charging patterns vary by time of day, day of week, and month?
 
 **Dataset:** `charging_sessions` — columns: `garage_id`, `user_id`, `user_type`, `start_plugin`, `start_plugin_hour`, `end_plugout`, `end_plugout_hour`, `duration_hours`, `el_kwh`, `month_plugin`, `weekdays_plugin`
+
+---
+
+### 4. [Analyze International Debt Stats](./analyze_international_debt_stats/)
+
+A SQL analysis of international debt data collected by The World Bank, examining the amount of debt (in USD) owed by developing countries across several categories.
+
+**Key questions explored:**
+- What is the number of distinct countries present in the database?
+- What country has the highest amount of debt?
+- What country has the lowest amount of repayments?
+
+**Dataset:** `international_debt` — columns: `country_name`, `country_code`, `indicator_name`, `indicator_code`, `debt`
+
+---
+
+### 5. [Carly's Clippers](./carly_clippers/)
+
+A SQL-based analysis for Carly's Clippers, a hair salon business, exploring operational data to derive key business insights.
+
+**Key questions explored:**
+- How many customers does the salon serve, and how are they categorized?
+- What services are offered, and which generate the most revenue?
+- How do employee performance and scheduling impact business outcomes?
+
+**Dataset:** `customers`, `services`, `employees` — covering customer details, service offerings, pricing, and staff information
